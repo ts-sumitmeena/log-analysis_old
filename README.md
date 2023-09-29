@@ -1,2 +1,2 @@
 # feedback-analysis
-Provide analysis for feedback data of Link app
+Provide analysis for feedback data of Link app from sympulse
