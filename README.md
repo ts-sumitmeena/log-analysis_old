@@ -26,6 +26,21 @@ Provide analysis for feedback/log data of Link app
    brew install python
    ```
 
+## IDE
+1. Open jupyter notebook in browser:
+   ```
+   jupyternote book file_name
+   ```
+2. Visual Studio Code
+   
+   Install extension
+   ```
+   searching jupyter notebook in extension
+   install Jupyter
+   ```
+
+   Active your_playground environment: https://code.visualstudio.com/docs/datascience/jupyter-notebooks
+   
 
 ## Sample
 [Feedback] August 2023 
