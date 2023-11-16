@@ -1,0 +1,746 @@
+[2023-11-08 11:22:17.058] WebRtcAudioManagerExternal-New:Sample rate is set to 48000 Hz
+[2023-11-08 11:22:17.058] WebRtcAudioManagerExternal-New:Sample rate is set to 48000 Hz
+[2023-11-08 11:22:17.058] JavaAudioDeviceModule:createAudioDeviceModule
+[2023-11-08 11:22:17.059] JavaAudioDeviceModule:HW NS will be used.
+[2023-11-08 11:22:17.059] JavaAudioDeviceModule:HW AEC will be used.
+[2023-11-08 11:22:17.059] WebRtcAudioEffectsExternal:ctor@[name=pool-61-thread-1, id=626]
+[2023-11-08 11:22:17.062] audio_record_jni.cc:(line 71): ctor
+
+[2023-11-08 11:22:17.062] audio_track_jni.cc:(line 45): ctor
+
+[2023-11-08 11:22:17.062] audio_device_module.cc:(line 649): CreateAudioDeviceModuleFromInputAndOutput
+
+[2023-11-08 11:22:17.062] audio_device_module.cc:(line 71): AndroidAudioDeviceModule
+
+[2023-11-08 11:22:17.069] audio_processing_impl.cc:(line 435): Capture analyzer activated: 0
+Capture post processor activated: 0
+Render pre processor activated: 0
+
+[2023-11-08 11:22:17.160] webrtc_video_engine.cc:(line 479): WebRtcVideoEngine::WebRtcVideoEngine()
+
+[2023-11-08 11:22:17.161] webrtc_voice_engine.cc:(line 196): WebRtcVoiceEngine::WebRtcVoiceEngine
+
+[2023-11-08 11:22:17.165] webrtc_voice_engine.cc:(line 219): WebRtcVoiceEngine::Init
+
+[2023-11-08 11:22:17.166] webrtc_voice_engine.cc:(line 227): Supported send codecs in order of preference:
+
+[2023-11-08 11:22:17.166] audio_encoder_amrwb.cc:(line 196): MAVMEDIA>>AMRWB Mode-set not found
+
+[2023-11-08 11:22:17.166] audio_encoder_amrwb.cc:(line 213): MAVMEDIA>>AMRWB modes:0,1,2,3,4,5,6,7,8,
+
+[2023-11-08 11:22:17.167] audio_encoder_amrnb.cc:(line 188): MAVMEDIA>>AMRNB Mode-set not found
+
+[2023-11-08 11:22:17.167] audio_encoder_amrnb.cc:(line 204): MAVMEDIA>>AMRNB modes:0,1,2,3,4,5,6,7,
+
+[2023-11-08 11:22:17.168] webrtc_voice_engine.cc:(line 230): opus/48000/2 { minptime=10 useinbandfec=1 } (111)
+
+[2023-11-08 11:22:17.168] webrtc_voice_engine.cc:(line 230): AMR-WB/16000/1 (102)
+
+[2023-11-08 11:22:17.168] webrtc_voice_engine.cc:(line 230): AMR/8000/1 (100)
+
+[2023-11-08 11:22:17.168] webrtc_voice_engine.cc:(line 230): ISAC/16000/1 (103)
+
+[2023-11-08 11:22:17.168] webrtc_voice_engine.cc:(line 230): ISAC/32000/1 (104)
+
+[2023-11-08 11:22:17.168] webrtc_voice_engine.cc:(line 230): G722/8000/1 (9)
+
+[2023-11-08 11:22:17.168] webrtc_voice_engine.cc:(line 230): ILBC/8000/1 (101)
+
+[2023-11-08 11:22:17.168] webrtc_voice_engine.cc:(line 230): PCMU/8000/1 (0)
+
+[2023-11-08 11:22:17.169] webrtc_voice_engine.cc:(line 230): PCMA/8000/1 (8)
+
+[2023-11-08 11:22:17.169] webrtc_voice_engine.cc:(line 230): CN/32000/1 (106)
+
+[2023-11-08 11:22:17.169] webrtc_voice_engine.cc:(line 230): CN/16000/1 (105)
+
+[2023-11-08 11:22:17.169] webrtc_voice_engine.cc:(line 230): CN/8000/1 (13)
+
+[2023-11-08 11:22:17.169] webrtc_voice_engine.cc:(line 230): telephone-event/48000/1 (110)
+
+[2023-11-08 11:22:17.169] webrtc_voice_engine.cc:(line 230): telephone-event/32000/1 (112)
+
+[2023-11-08 11:22:17.169] webrtc_voice_engine.cc:(line 230): telephone-event/16000/1 (113)
+
+[2023-11-08 11:22:17.169] webrtc_voice_engine.cc:(line 230): telephone-event/8000/1 (126)
+
+[2023-11-08 11:22:17.170] webrtc_voice_engine.cc:(line 233): Supported recv codecs in order of preference:
+
+[2023-11-08 11:22:17.170] webrtc_voice_engine.cc:(line 236): opus/48000/2 { minptime=10 useinbandfec=1 } (111)
+
+[2023-11-08 11:22:17.170] webrtc_voice_engine.cc:(line 236): AMR-WB/16000/1 (102)
+
+[2023-11-08 11:22:17.170] webrtc_voice_engine.cc:(line 236): AMR/8000/1 (100)
+
+[2023-11-08 11:22:17.170] webrtc_voice_engine.cc:(line 236): ISAC/16000/1 (103)
+
+[2023-11-08 11:22:17.170] webrtc_voice_engine.cc:(line 236): ISAC/32000/1 (104)
+
+[2023-11-08 11:22:17.170] webrtc_voice_engine.cc:(line 236): G722/8000/1 (9)
+
+[2023-11-08 11:22:17.171] webrtc_voice_engine.cc:(line 236): ILBC/8000/1 (101)
+
+[2023-11-08 11:22:17.171] webrtc_voice_engine.cc:(line 236): PCMU/8000/1 (0)
+
+[2023-11-08 11:22:17.171] webrtc_voice_engine.cc:(line 236): PCMA/8000/1 (8)
+
+[2023-11-08 11:22:17.172] webrtc_voice_engine.cc:(line 236): CN/32000/1 (106)
+
+[2023-11-08 11:22:17.172] webrtc_voice_engine.cc:(line 236): CN/16000/1 (105)
+
+[2023-11-08 11:22:17.172] webrtc_voice_engine.cc:(line 236): CN/8000/1 (13)
+
+[2023-11-08 11:22:17.172] webrtc_voice_engine.cc:(line 236): telephone-event/48000/1 (110)
+
+[2023-11-08 11:22:17.172] webrtc_voice_engine.cc:(line 236): telephone-event/32000/1 (112)
+
+[2023-11-08 11:22:17.172] webrtc_voice_engine.cc:(line 236): telephone-event/16000/1 (113)
+
+[2023-11-08 11:22:17.172] webrtc_voice_engine.cc:(line 236): telephone-event/8000/1 (126)
+
+[2023-11-08 11:22:17.172] audio_device_module.cc:(line 90): Init
+
+[2023-11-08 11:22:17.173] audio_device_buffer.cc:(line 63): AudioDeviceBuffer::ctor
+
+[2023-11-08 11:22:17.173] audio_device_module.cc:(line 586): AttachAudioBuffer
+
+[2023-11-08 11:22:17.174] audio_track_jni.cc:(line 174): AttachAudioBuffer
+
+[2023-11-08 11:22:17.174] audio_track_jni.cc:(line 178): SetPlayoutSampleRate(48000)
+
+[2023-11-08 11:22:17.174] audio_device_buffer.cc:(line 186): SetPlayoutSampleRate(48000)
+
+[2023-11-08 11:22:17.174] audio_track_jni.cc:(line 181): SetPlayoutChannels(1)
+
+[2023-11-08 11:22:17.174] audio_device_buffer.cc:(line 206): SetPlayoutChannels(1)
+
+[2023-11-08 11:22:17.174] audio_record_jni.cc:(line 180): AttachAudioBuffer
+
+[2023-11-08 11:22:17.175] audio_record_jni.cc:(line 184): SetRecordingSampleRate(48000)
+
+[2023-11-08 11:22:17.175] audio_device_buffer.cc:(line 180): SetRecordingSampleRate(48000)
+
+[2023-11-08 11:22:17.175] audio_record_jni.cc:(line 187): SetRecordingChannels(1)
+
+[2023-11-08 11:22:17.175] audio_device_buffer.cc:(line 200): SetRecordingChannels(1)
+
+[2023-11-08 11:22:17.175] audio_track_jni.cc:(line 62): Init
+
+[2023-11-08 11:22:17.175] audio_record_jni.cc:(line 88): Init
+
+[2023-11-08 11:22:17.177] audio_device_module.cc:(line 166): SetPlayoutDevice(0)
+
+[2023-11-08 11:22:17.177] audio_device_module.cc:(line 319): InitSpeaker
+
+[2023-11-08 11:22:17.177] audio_device_module.cc:(line 456): StereoPlayoutIsAvailable
+
+[2023-11-08 11:22:17.177] audio_device_module.cc:(line 458): output: 0
+
+[2023-11-08 11:22:17.177] audio_device_module.cc:(line 463): SetStereoPlayout(0)
+
+[2023-11-08 11:22:17.177] audio_device_module.cc:(line 179): SetRecordingDevice(0)
+
+[2023-11-08 11:22:17.177] audio_device_module.cc:(line 329): InitMicrophone
+
+[2023-11-08 11:22:17.177] audio_device_module.cc:(line 483): StereoRecordingIsAvailable
+
+[2023-11-08 11:22:17.178] audio_device_module.cc:(line 485): output: 0
+
+[2023-11-08 11:22:17.178] audio_device_module.cc:(line 490): SetStereoRecording(0)
+
+[2023-11-08 11:22:17.178] apm_helpers.cc:(line 32): Setting AGC mode to 2
+
+[2023-11-08 11:22:17.178] audio_processing_impl.cc:(line 699): Highpass filter activated: 0
+
+[2023-11-08 11:22:17.178] audio_processing_impl.cc:(line 717): Gain Controller 2 activated: 0
+
+[2023-11-08 11:22:17.179] audio_processing_impl.cc:(line 719): Pre-amplifier activated: 0
+
+[2023-11-08 11:22:17.180] audio_device_module.cc:(line 85): RegisterAudioCallback
+
+[2023-11-08 11:22:17.180] audio_device_buffer.cc:(line 81): RegisterAudioCallback
+
+[2023-11-08 11:22:17.180] webrtc_voice_engine.cc:(line 309): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 1, agc: 1, ns: 1, hf: 1, swap: 0, audio_jitter_buffer_max_packets: 200, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, typing: 1, experimental_agc: 0, extended_filter_aec: 0, delay_agnostic_aec: 0, experimental_ns: 0, residual_echo_detector: 1, }
+
+[2023-11-08 11:22:17.180] audio_device_module.cc:(line 529): BuiltInAECIsAvailable
+
+[2023-11-08 11:22:17.181] audio_device_module.cc:(line 533): output: 1
+
+[2023-11-08 11:22:17.181] audio_device_module.cc:(line 559): EnableBuiltInAEC(1)
+
+[2023-11-08 11:22:17.181] audio_device_module.cc:(line 529): BuiltInAECIsAvailable
+
+[2023-11-08 11:22:17.181] audio_device_module.cc:(line 533): output: 1
+
+[2023-11-08 11:22:17.181] audio_record_jni.cc:(line 204): EnableBuiltInAEC(1)
+
+[2023-11-08 11:22:17.181] WebRtcAudioRecordExternal:enableBuiltInAEC(true)
+[2023-11-08 11:22:17.181] WebRtcAudioEffectsExternal:setAEC(true)
+[2023-11-08 11:22:17.181] audio_device_module.cc:(line 564): output: 0
+
+[2023-11-08 11:22:17.182] webrtc_voice_engine.cc:(line 410): Disabling EC since built-in EC will be used instead
+
+[2023-11-08 11:22:17.182] audio_processing_impl.cc:(line 699): Highpass filter activated: 0
+
+[2023-11-08 11:22:17.183] audio_processing_impl.cc:(line 717): Gain Controller 2 activated: 0
+
+[2023-11-08 11:22:17.184] audio_processing_impl.cc:(line 719): Pre-amplifier activated: 0
+
+[2023-11-08 11:22:17.184] apm_helpers.cc:(line 48): Echo control set to 0 with mode 1
+
+[2023-11-08 11:22:17.184] audio_device_module.cc:(line 539): BuiltInAGCIsAvailable
+
+[2023-11-08 11:22:17.184] audio_device_module.cc:(line 540): output: 0
+
+[2023-11-08 11:22:17.184] audio_device_module.cc:(line 549): BuiltInNSIsAvailable
+
+[2023-11-08 11:22:17.184] audio_device_module.cc:(line 553): output: 1
+
+[2023-11-08 11:22:17.184] audio_device_module.cc:(line 576): EnableBuiltInNS(1)
+
+[2023-11-08 11:22:17.185] audio_device_module.cc:(line 549): BuiltInNSIsAvailable
+
+[2023-11-08 11:22:17.185] audio_device_module.cc:(line 553): output: 1
+
+[2023-11-08 11:22:17.186] audio_record_jni.cc:(line 212): EnableBuiltInNS(1)
+
+[2023-11-08 11:22:17.186] WebRtcAudioRecordExternal:enableBuiltInNS(true)
+[2023-11-08 11:22:17.186] WebRtcAudioEffectsExternal:setNS(true)
+[2023-11-08 11:22:17.186] audio_device_module.cc:(line 581): output: 0
+
+[2023-11-08 11:22:17.186] webrtc_voice_engine.cc:(line 444): Disabling NS since built-in NS will be used instead
+
+[2023-11-08 11:22:17.187] audio_processing_impl.cc:(line 699): Highpass filter activated: 0
+
+[2023-11-08 11:22:17.187] audio_processing_impl.cc:(line 717): Gain Controller 2 activated: 0
+
+[2023-11-08 11:22:17.187] audio_processing_impl.cc:(line 719): Pre-amplifier activated: 0
+
+[2023-11-08 11:22:17.188] apm_helpers.cc:(line 62): NS set to 0
+
+[2023-11-08 11:22:17.188] webrtc_voice_engine.cc:(line 452): Stereo swapping enabled? 0
+
+[2023-11-08 11:22:17.188] webrtc_voice_engine.cc:(line 457): NetEq capacity is 200
+
+[2023-11-08 11:22:17.189] webrtc_voice_engine.cc:(line 463): NetEq fast mode? 0
+
+[2023-11-08 11:22:17.189] webrtc_voice_engine.cc:(line 469): NetEq minimum delay is 0
+
+[2023-11-08 11:22:17.189] webrtc_voice_engine.cc:(line 475): NetEq handle reordered packets? 0
+
+[2023-11-08 11:22:17.192] webrtc_voice_engine.cc:(line 486): Delay agnostic aec is enabled? 0
+
+[2023-11-08 11:22:17.192] webrtc_voice_engine.cc:(line 496): Extended filter aec is enabled? 0
+
+[2023-11-08 11:22:17.193] webrtc_voice_engine.cc:(line 506): Experimental ns is enabled? 0
+
+[2023-11-08 11:22:17.193] webrtc_voice_engine.cc:(line 516): Setting AGC to 1
+
+[2023-11-08 11:22:17.193] webrtc_voice_engine.cc:(line 538): Typing detection is enabled? 0
+
+[2023-11-08 11:22:17.193] audio_processing_impl.cc:(line 699): Highpass filter activated: 1
+
+[2023-11-08 11:22:17.193] audio_processing_impl.cc:(line 717): Gain Controller 2 activated: 0
+
+[2023-11-08 11:22:17.194] audio_processing_impl.cc:(line 719): Pre-amplifier activated: 0
+
+[2023-11-08 11:22:17.197] PeerConnectionFactory:onWorkerThreadReady
+[2023-11-08 11:22:17.198] PeerConnectionFactory:onSignalingThreadReady
+[2023-11-08 11:22:17.197] PeerConnectionFactory:onNetworkThreadReady
+[2023-11-08 11:22:17.217] MavPeerConnection created:08-11-2023-11-22-17-204
+[2023-11-08 11:22:17.231] rtc_event_log_impl.cc:(line 63): Creating legacy encoder for RTC event log.
+
+[2023-11-08 11:22:17.232] peer_connection_factory.cc:(line 361): Using default network controller factory
+
+[2023-11-08 11:22:17.234] bitrate_prober.cc:(line 69): Bandwidth probing enabled, set to inactive
+
+[2023-11-08 11:22:17.235] paced_sender.cc:(line 421): ProcessThreadAttached 0xbd03b590
+
+[2023-11-08 11:22:17.235] cpu_info.cc:(line 53): Available number of cores: 8
+
+[2023-11-08 11:22:17.236] aimd_rate_control.cc:(line 105): Using aimd rate control with back off factor 0.85
+
+[2023-11-08 11:22:17.236] remote_bitrate_estimator_single_stream.cc:(line 71): RemoteBitrateEstimatorSingleStream: Instantiating.
+
+[2023-11-08 11:22:17.236] remote_estimator_proxy.cc:(line 44): Maximum interval between transport feedback RTCP messages (ms): 250
+
+[2023-11-08 11:22:17.237] peer_connection.cc:(line 5442): TCP candidates are disabled.
+
+[2023-11-08 11:22:17.261] webrtc_sdp.cc:(line 3250): Ignored line: a=msi:mavodi-0-15b-3c-7-ffffffff-36ec0000-600db190050cb-25c4-ffffffffffffffff-@127.0.0.1-127.0.0.1&&MAV_SNDA_WRG_02-490
+
+[2023-11-08 11:22:17.264] p2p_transport_channel.cc:(line 519): Set backup connection ping interval to 25000 milliseconds.
+
+[2023-11-08 11:22:17.264] p2p_transport_channel.cc:(line 528): Set ICE receiving timeout to 2500 milliseconds
+
+[2023-11-08 11:22:17.264] p2p_transport_channel.cc:(line 535): Set ping most likely connection to 0
+
+[2023-11-08 11:22:17.264] p2p_transport_channel.cc:(line 542): Set stable_writable_connection_ping_interval to 2500
+
+[2023-11-08 11:22:17.264] p2p_transport_channel.cc:(line 555): Set presume writable when fully relayed to 0
+
+[2023-11-08 11:22:17.265] p2p_transport_channel.cc:(line 564): Set regather_on_failed_networks_interval to 300000
+
+[2023-11-08 11:22:17.265] p2p_transport_channel.cc:(line 583): Set receiving_switching_delay to 1000
+
+[2023-11-08 11:22:17.265] p2p_transport_channel.cc:(line 606): Set weak ping interval to 100
+
+[2023-11-08 11:22:17.265] jsep_transport_controller.cc:(line 1212): Creating SdesTransport.
+
+[2023-11-08 11:22:17.265] p2p_transport_channel.cc:(line 465): Received remote ICE parameters: ufrag=YRhQ, renomination disabled
+
+[2023-11-08 11:22:17.268] webrtc_voice_engine.cc:(line 1501): Setting voice channel options: AudioOptions {audio_jitter_buffer_max_packets: 80, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, }
+
+[2023-11-08 11:22:17.269] webrtc_voice_engine.cc:(line 309): WebRtcVoiceEngine::ApplyOptions: AudioOptions {audio_jitter_buffer_max_packets: 80, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, }
+
+[2023-11-08 11:22:17.269] webrtc_voice_engine.cc:(line 457): NetEq capacity is 80
+
+[2023-11-08 11:22:17.269] webrtc_voice_engine.cc:(line 463): NetEq fast mode? 0
+
+[2023-11-08 11:22:17.269] webrtc_voice_engine.cc:(line 469): NetEq minimum delay is 0
+
+[2023-11-08 11:22:17.269] webrtc_voice_engine.cc:(line 475): NetEq handle reordered packets? 0
+
+[2023-11-08 11:22:17.269] webrtc_voice_engine.cc:(line 486): Delay agnostic aec is enabled? 0
+
+[2023-11-08 11:22:17.270] webrtc_voice_engine.cc:(line 496): Extended filter aec is enabled? 0
+
+[2023-11-08 11:22:17.270] webrtc_voice_engine.cc:(line 506): Experimental ns is enabled? 0
+
+[2023-11-08 11:22:17.272] webrtc_voice_engine.cc:(line 538): Typing detection is enabled? 0
+
+[2023-11-08 11:22:17.273] audio_processing_impl.cc:(line 699): Highpass filter activated: 1
+
+[2023-11-08 11:22:17.273] audio_processing_impl.cc:(line 717): Gain Controller 2 activated: 0
+
+[2023-11-08 11:22:17.273] audio_processing_impl.cc:(line 719): Pre-amplifier activated: 0
+
+[2023-11-08 11:22:17.274] webrtc_voice_engine.cc:(line 1519): Set voice channel options. Current options: AudioOptions {audio_jitter_buffer_max_packets: 80, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, }
+
+[2023-11-08 11:22:17.274] channel.cc:(line 145): Created channel for audio
+
+[2023-11-08 11:22:17.278] channel.cc:(line 214): BaseChannel::Init_w, media_transport_config={media_transport: null}
+
+[2023-11-08 11:22:17.279] call.cc:(line 1188): UpdateAggregateNetworkState: aggregate_state=down
+
+[2023-11-08 11:22:17.279] rtp_transport_controller_send.cc:(line 270): SignalNetworkState Down
+
+[2023-11-08 11:22:17.280] peer_connection.cc:(line 4202): Session: 8699277310640825164 Old state: kStable New state: kHaveRemoteOffer
+
+[2023-11-08 11:22:17.283] channel.cc:(line 921): Setting remote voice description
+
+[2023-11-08 11:22:17.284] webrtc_voice_engine.cc:(line 1295): WebRtcVoiceMediaChannel::SetSendParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[110:telephone-event:48000:0:1]], extensions: [{uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 2}], extmap-allow-mixed: false, max_bandwidth_bps: -1, mid: audio, options: AudioOptions {}}
+
+[2023-11-08 11:22:17.284] webrtc_voice_engine.cc:(line 2184): WebRtcVoiceMediaChannel::SetMaxSendBitrate.
+
+[2023-11-08 11:22:17.284] webrtc_voice_engine.cc:(line 1501): Setting voice channel options: AudioOptions {}
+
+[2023-11-08 11:22:17.284] webrtc_voice_engine.cc:(line 309): WebRtcVoiceEngine::ApplyOptions: AudioOptions {audio_jitter_buffer_max_packets: 80, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, }
+
+[2023-11-08 11:22:17.284] webrtc_voice_engine.cc:(line 457): NetEq capacity is 80
+
+[2023-11-08 11:22:17.285] webrtc_voice_engine.cc:(line 463): NetEq fast mode? 0
+
+[2023-11-08 11:22:17.285] webrtc_voice_engine.cc:(line 469): NetEq minimum delay is 0
+
+[2023-11-08 11:22:17.285] webrtc_voice_engine.cc:(line 475): NetEq handle reordered packets? 0
+
+[2023-11-08 11:22:17.285] webrtc_voice_engine.cc:(line 486): Delay agnostic aec is enabled? 0
+
+[2023-11-08 11:22:17.285] webrtc_voice_engine.cc:(line 496): Extended filter aec is enabled? 0
+
+[2023-11-08 11:22:17.285] webrtc_voice_engine.cc:(line 506): Experimental ns is enabled? 0
+
+[2023-11-08 11:22:17.285] webrtc_voice_engine.cc:(line 538): Typing detection is enabled? 0
+
+[2023-11-08 11:22:17.286] audio_processing_impl.cc:(line 699): Highpass filter activated: 1
+
+[2023-11-08 11:22:17.286] audio_processing_impl.cc:(line 717): Gain Controller 2 activated: 0
+
+[2023-11-08 11:22:17.286] audio_processing_impl.cc:(line 719): Pre-amplifier activated: 0
+
+[2023-11-08 11:22:17.286] webrtc_voice_engine.cc:(line 1519): Set voice channel options. Current options: AudioOptions {audio_jitter_buffer_max_packets: 80, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, }
+
+[2023-11-08 11:22:17.288] channel.cc:(line 861): Changing voice state, recv=0 send=0
+
+[2023-11-08 11:22:17.288] peer_connection.cc:(line 4906): Creating audio receiver for track_id=defaulta0 and stream_id=default
+
+[2023-11-08 11:22:17.291] peer_connection.cc:(line 5576): Local and Remote descriptions must be applied to get the SSL Role of the session.
+
+[2023-11-08 11:22:17.295] webrtc_sdp.cc:(line 3250): Ignored line: a=rtcp:9 IN IP4 0.0.0.0
+
+[2023-11-08 11:22:17.311] srtp_transport.cc:(line 309): SRTP activated with negotiated parameters: send cipher_suite 1 recv cipher_suite 1
+
+[2023-11-08 11:22:17.311] p2p_transport_channel.cc:(line 454): Set ICE ufrag: QTtS pwd: 0d9cMaCjDYs2Y5cQmcuYbNN6 on transport audio
+
+[2023-11-08 11:22:17.311] dtls_transport.cc:(line 252): DtlsTransport[audio|1|__]: Other side didn't support DTLS.
+
+[2023-11-08 11:22:17.312] channel.cc:(line 549): Channel enabled
+
+[2023-11-08 11:22:17.312] channel.cc:(line 861): Changing voice state, recv=0 send=0
+
+[2023-11-08 11:22:17.312] peer_connection.cc:(line 4202): Session: 8699277310640825164 Old state: kHaveRemoteOffer New state: kStable
+
+[2023-11-08 11:22:17.313] channel.cc:(line 869): Setting local voice description
+
+[2023-11-08 11:22:17.313] webrtc_voice_engine.cc:(line 1340): WebRtcVoiceMediaChannel::SetRecvParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[110:telephone-event:48000:0:1]], extensions: [{uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 2}]}
+
+[2023-11-08 11:22:17.313] webrtc_voice_engine.cc:(line 1529): Setting receive voice codecs.
+
+[2023-11-08 11:22:17.314] webrtc_voice_engine.cc:(line 1803): AddSendStream: {id:ARDAMSa0;ssrcs:[3065001346];ssrc_groups:;cname:8FA2tmUriCEy9wuf;stream_ids:ARDAMS;}
+
+[2023-11-08 11:22:17.315] neteq_impl.cc:(line 123): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=200, min_delay_ms=0, enable_fast_accelerate=false, enable_muted_state=false, enable_rtx_handling=false
+
+[2023-11-08 11:22:17.316] audio_coding_module.cc:(line 312): Created
+
+[2023-11-08 11:22:17.316] audio_send_stream.cc:(line 142): AudioSendStream: 3065001346
+
+[2023-11-08 11:22:17.316] audio_send_stream.cc:(line 230): AudioSendStream::ConfigureStream: {rtp: {ssrc: 3065001346, extmap-allow-mixed: false, extensions: [{uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 2}], c_name: 8FA2tmUriCEy9wuf}, rtcp_report_interval_ms: 5000, send_transport: (Transport), media_transport_config: {media_transport: null}, min_bitrate_bps: 32000, max_bitrate_bps: 32000, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, payload_type: 111, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {maxaveragebitrate: 32000, maxptime: 20, minptime: 10, ptime: 20, stereo: 0, useinbandfec: 1}}}}
+
+[2023-11-08 11:22:17.317] audio_encoder_opus.cc:(line 778): Recreate Encoder, Set Opus bitrate to 32000 bps.
+
+[2023-11-08 11:22:17.317] call.cc:(line 1188): UpdateAggregateNetworkState: aggregate_state=down
+
+[2023-11-08 11:22:17.318] rtp_transport_controller_send.cc:(line 270): SignalNetworkState Down
+
+[2023-11-08 11:22:17.318] channel.cc:(line 672): Add send stream ssrc: 3065001346
+
+[2023-11-08 11:22:17.318] channel.cc:(line 861): Changing voice state, recv=1 send=0
+
+[2023-11-08 11:22:17.321] NetworkMonitor:Start monitoring with native observer -5476376671264988560
+[2023-11-08 11:22:17.337] NetworkMonitorAutoDetect:Network becomes available: 239
+[2023-11-08 11:22:17.342] android_network_monitor.cc:(line 360): Android network monitor found 3 networks
+
+[2023-11-08 11:22:17.343] android_network_monitor.cc:(line 325): Network connected: NetInfo[name rmnet_data7; handle 1025607913485; type 3; address 240b:c010:8d2:d075:0:3c:3864:d101]
+
+[2023-11-08 11:22:17.343] android_network_monitor.cc:(line 325): Network connected: NetInfo[name wlan0; handle 1029902880781; type 2; address fe80::784c:faff:fe8c:461d 10.51.209.111]
+
+[2023-11-08 11:22:17.343] android_network_monitor.cc:(line 325): Network connected: NetInfo[name rmnet_data2; handle 1034197848077; type 3; address 240b:c010:800:8bb6:0:8:f7e3:4801]
+
+[2023-11-08 11:22:17.343] basic_port_allocator.cc:(line 405): Start getting ports with prune_turn_ports disabled
+
+[2023-11-08 11:22:17.344] android_network_monitor.cc:(line 325): Network connected: NetInfo[name wlan0; handle 1029902880781; type 2; address fe80::784c:faff:fe8c:461d 10.51.209.111]
+
+[2023-11-08 11:22:17.350] basic_port_allocator.cc:(line 109): Filtered out ignored networks:
+
+[2023-11-08 11:22:17.350] basic_port_allocator.cc:(line 111): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=2]
+
+[2023-11-08 11:22:17.350] basic_port_allocator.cc:(line 111): Net[lo:127.0.0.x/8:Loopback:id=1]
+
+[2023-11-08 11:22:17.350] basic_port_allocator.cc:(line 918): Network manager has started
+
+[2023-11-08 11:22:17.351] network.cc:(line 480): Network change was observed
+
+[2023-11-08 11:22:17.352] message_queue.cc:(line 517): Message took 56ms to dispatch. Posted from: SetLocalDescription@../../../home/mayur/Documents/code/src/api/peer_connection_proxy.h:100
+
+[2023-11-08 11:22:17.356] network.cc:(line 480): Network change was observed
+
+[2023-11-08 11:22:17.362] NetworkMonitorAutoDetect:capabilities changed: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=28763Kbps LinkDnBandwidth>=33889Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /10.51.209.111, Security type: 3, Supplicant state: COMPLETED, Wi-Fi standard: 6, RSSI: -61, Link speed: 229Mbps, Tx Link speed: 229Mbps, Max Supported Tx Link speed: 286Mbps, Rx Link speed: 206Mbps, Max Supported Rx Link speed: 286Mbps, Frequency: 5280MHz, Net ID: -1, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: -1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>> SignalStrength: -61 UnderlyingNetworks: Null]
+[2023-11-08 11:22:17.363] basic_port_allocator.cc:(line 109): Filtered out ignored networks:
+
+[2023-11-08 11:22:17.364] basic_port_allocator.cc:(line 111): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=2]
+
+[2023-11-08 11:22:17.364] basic_port_allocator.cc:(line 111): Net[lo:127.0.0.x/8:Loopback:id=1]
+
+[2023-11-08 11:22:17.364] basic_port_allocator.cc:(line 833): Allocate ports on 3 networks
+
+[2023-11-08 11:22:17.371] physical_socket_server.cc:(line 204): Binding socket to network address 240b:c010:800:8bb6:0:8:f7e3:4801 failed; result: -1
+
+[2023-11-08 11:22:17.371] basic_packet_socket_factory.cc:(line 53): UDP bind failed with error 101
+
+[2023-11-08 11:22:17.372] physical_socket_server.cc:(line 204): Binding socket to network address 240b:c010:8d2:d075:0:3c:3864:d101 failed; result: -1
+
+[2023-11-08 11:22:17.372] basic_packet_socket_factory.cc:(line 53): UDP bind failed with error 13
+
+[2023-11-08 11:22:17.372] android_network_monitor.cc:(line 325): Network connected: NetInfo[name wlan0; handle 1029902880781; type 2; address fe80::784c:faff:fe8c:461d 10.51.209.111]
+
+[2023-11-08 11:22:17.372] basic_port_allocator.cc:(line 1372): Net[wlan0:10.51.192.x/19:Wifi:id=5]: Allocation Phase=Udp
+
+[2023-11-08 11:22:17.372] port.cc:(line 185): Port[1d052360::1:0:local:Net[wlan0:10.51.192.x/19:Wifi:id=5]]: Port created with network cost 10
+
+[2023-11-08 11:22:17.373] basic_port_allocator.cc:(line 942): Adding allocated port for audio
+
+[2023-11-08 11:22:17.373] basic_port_allocator.cc:(line 961): Port[1d052360:audio:1:0:local:Net[wlan0:10.51.192.x/19:Wifi:id=5]]: Added port to allocator
+
+[2023-11-08 11:22:17.373] basic_port_allocator.cc:(line 979): Port[1d052360:audio:1:0:local:Net[wlan0:10.51.192.x/19:Wifi:id=5]]: Gathered candidate: Cand[:3950154443:1:udp:2122260223:10.51.209.x:55454:local::0:QTtS:0d9cMaCjDYs2Y5cQmcuYbNN6:5:10:0]
+
+[2023-11-08 11:22:17.373] NetworkMonitorAutoDetect:link properties changed: {InterfaceName: wlan0 LinkAddresses: [ fe80::784c:faff:fe8c:461d/64,10.51.209.111/19 ] DnsAddresses: [ /8.8.8.8,/8.8.4.4 ] UsePrivateDns: true ValidatedPrivateDnsAddresses: [8.8.8.8,8.8.4.4] Domains: intra.rakuten.co.jp MTU: 0 ServerAddress: /10.0.79.10 TcpBufferSizes: 524288,1048576,4194304,524288,1048576,4194304 Routes: [ fe80::/64 -> :: wlan0 mtu 0,10.51.192.0/19 -> 0.0.0.0 wlan0 mtu 0,0.0.0.0/0 -> 10.51.223.254 wlan0 mtu 0 ]}
+[2023-11-08 11:22:17.373] basic_port_allocator.cc:(line 1007): Port[1d052360:audio:1:0:local:Net[wlan0:10.51.192.x/19:Wifi:id=5]]: Port ready.
+
+[2023-11-08 11:22:17.373] physical_socket_server.cc:(line 557): Socket::OPT_DSCP not supported.
+
+[2023-11-08 11:22:17.373] p2p_transport_channel.cc:(line 828): Port[1d052360:audio:1:0:local:Net[wlan0:10.51.192.x/19:Wifi:id=5]]: SetOption(5, 0) failed: 0
+
+[2023-11-08 11:22:17.373] basic_port_allocator.cc:(line 1084): Port[1d052360:audio:1:0:local:Net[wlan0:10.51.192.x/19:Wifi:id=5]]: Port completed gathering candidates.
+
+[2023-11-08 11:22:17.374] basic_port_allocator.cc:(line 1372): Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]: Allocation Phase=Udp
+
+[2023-11-08 11:22:17.374] port.cc:(line 185): Port[1d054390::1:0:local:Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]]: Port created with network cost 900
+
+[2023-11-08 11:22:17.374] physical_socket_server.cc:(line 204): Binding socket to network address 240b:c010:800:8bb6:0:8:f7e3:4801 failed; result: -1
+
+[2023-11-08 11:22:17.374] basic_packet_socket_factory.cc:(line 53): UDP bind failed with error 13
+
+[2023-11-08 11:22:17.375] stun_port.cc:(line 216): Port[1d054390::1:0:local:Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]]: UDP socket creation failed
+
+[2023-11-08 11:22:17.375] basic_port_allocator.cc:(line 1372): Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]: Allocation Phase=Udp
+
+[2023-11-08 11:22:17.375] port.cc:(line 185): Port[1d054390::1:0:local:Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]]: Port created with network cost 900
+
+[2023-11-08 11:22:17.376] physical_socket_server.cc:(line 204): Binding socket to network address 240b:c010:8d2:d075:0:3c:3864:d101 failed; result: -1
+
+[2023-11-08 11:22:17.376] basic_packet_socket_factory.cc:(line 53): UDP bind failed with error 13
+
+[2023-11-08 11:22:17.376] stun_port.cc:(line 216): Port[1d054390::1:0:local:Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]]: UDP socket creation failed
+
+[2023-11-08 11:22:17.376] android_network_monitor.cc:(line 325): Network connected: NetInfo[name wlan0; handle 1029902880781; type 2; address fe80::784c:faff:fe8c:461d 10.51.209.111]
+
+[2023-11-08 11:22:17.376] network.cc:(line 480): Network change was observed
+
+[2023-11-08 11:22:17.381] network.cc:(line 480): Network change was observed
+
+[2023-11-08 11:22:17.424] basic_port_allocator.cc:(line 1372): Net[wlan0:10.51.192.x/19:Wifi:id=5]: Allocation Phase=Relay
+
+[2023-11-08 11:22:17.424] basic_port_allocator.cc:(line 1372): Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]: Allocation Phase=Relay
+
+[2023-11-08 11:22:17.427] basic_port_allocator.cc:(line 1372): Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]: Allocation Phase=Relay
+
+[2023-11-08 11:22:17.474] basic_port_allocator.cc:(line 1372): Net[wlan0:10.51.192.x/19:Wifi:id=5]: Allocation Phase=Tcp
+
+[2023-11-08 11:22:17.474] basic_port_allocator.cc:(line 1372): Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]: Allocation Phase=Tcp
+
+[2023-11-08 11:22:17.477] basic_port_allocator.cc:(line 1372): Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]: Allocation Phase=Tcp
+
+[2023-11-08 11:22:17.477] basic_port_allocator.cc:(line 1159): All candidates gathered for audio:1:0
+
+[2023-11-08 11:22:17.477] p2p_transport_channel.cc:(line 883): P2PTransportChannel: audio, component 1 gathering complete
+
+[2023-11-08 11:22:17.482] webrtc_voice_engine.cc:(line 1501): Setting voice channel options: AudioOptions {aec: 1, extended_filter_aec: 0, delay_agnostic_aec: 0, }
+
+[2023-11-08 11:22:17.483] webrtc_voice_engine.cc:(line 309): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 1, audio_jitter_buffer_max_packets: 80, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, extended_filter_aec: 0, delay_agnostic_aec: 0, }
+
+[2023-11-08 11:22:17.483] audio_device_module.cc:(line 529): BuiltInAECIsAvailable
+
+[2023-11-08 11:22:17.483] audio_device_module.cc:(line 533): output: 1
+
+[2023-11-08 11:22:17.483] audio_device_module.cc:(line 559): EnableBuiltInAEC(1)
+
+[2023-11-08 11:22:17.484] audio_device_module.cc:(line 529): BuiltInAECIsAvailable
+
+[2023-11-08 11:22:17.484] audio_device_module.cc:(line 533): output: 1
+
+[2023-11-08 11:22:17.484] audio_record_jni.cc:(line 204): EnableBuiltInAEC(1)
+
+[2023-11-08 11:22:17.484] WebRtcAudioRecordExternal:enableBuiltInAEC(true)
+[2023-11-08 11:22:17.484] WebRtcAudioEffectsExternal:setAEC(true)
+[2023-11-08 11:22:17.484] audio_device_module.cc:(line 564): output: 0
+
+[2023-11-08 11:22:17.485] webrtc_voice_engine.cc:(line 410): Disabling EC since built-in EC will be used instead
+
+[2023-11-08 11:22:17.485] audio_processing_impl.cc:(line 699): Highpass filter activated: 1
+
+[2023-11-08 11:22:17.485] audio_processing_impl.cc:(line 717): Gain Controller 2 activated: 0
+
+[2023-11-08 11:22:17.485] audio_processing_impl.cc:(line 719): Pre-amplifier activated: 0
+
+[2023-11-08 11:22:17.485] apm_helpers.cc:(line 48): Echo control set to 0 with mode 1
+
+[2023-11-08 11:22:17.485] webrtc_voice_engine.cc:(line 457): NetEq capacity is 80
+
+[2023-11-08 11:22:17.486] webrtc_voice_engine.cc:(line 463): NetEq fast mode? 0
+
+[2023-11-08 11:22:17.486] webrtc_voice_engine.cc:(line 469): NetEq minimum delay is 0
+
+[2023-11-08 11:22:17.486] webrtc_voice_engine.cc:(line 475): NetEq handle reordered packets? 0
+
+[2023-11-08 11:22:17.486] webrtc_voice_engine.cc:(line 486): Delay agnostic aec is enabled? 0
+
+[2023-11-08 11:22:17.487] webrtc_voice_engine.cc:(line 496): Extended filter aec is enabled? 0
+
+[2023-11-08 11:22:17.487] webrtc_voice_engine.cc:(line 506): Experimental ns is enabled? 0
+
+[2023-11-08 11:22:17.487] webrtc_voice_engine.cc:(line 538): Typing detection is enabled? 0
+
+[2023-11-08 11:22:17.487] audio_processing_impl.cc:(line 699): Highpass filter activated: 1
+
+[2023-11-08 11:22:17.487] audio_processing_impl.cc:(line 717): Gain Controller 2 activated: 0
+
+[2023-11-08 11:22:17.487] audio_processing_impl.cc:(line 719): Pre-amplifier activated: 0
+
+[2023-11-08 11:22:17.488] webrtc_voice_engine.cc:(line 1519): Set voice channel options. Current options: AudioOptions {aec: 1, audio_jitter_buffer_max_packets: 80, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, audio_jitter_buffer_enable_rtx_handling: 0, extended_filter_aec: 0, delay_agnostic_aec: 0, }
+
+[2023-11-08 11:22:18.181] NetworkMonitorAutoDetect:Network becomes available: 242
+[2023-11-08 11:22:18.188] android_network_monitor.cc:(line 325): Network connected: NetInfo[name rmnet_data5; handle 1042787782669; type 3; address 10.76.10.244 240b:c010:4c1:9a92:8145:cdd5:d232:74cc]
+
+[2023-11-08 11:22:18.189] network.cc:(line 480): Network change was observed
+
+[2023-11-08 11:22:18.193] NetworkMonitorAutoDetect:capabilities changed: [ Transports: CELLULAR Capabilities: SUPL&IA&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 3]> UnderlyingNetworks: Null]
+[2023-11-08 11:22:18.199] basic_port_allocator.cc:(line 109): Filtered out ignored networks:
+
+[2023-11-08 11:22:18.199] basic_port_allocator.cc:(line 111): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=2]
+
+[2023-11-08 11:22:18.200] basic_port_allocator.cc:(line 111): Net[lo:127.0.0.x/8:Loopback:id=1]
+
+[2023-11-08 11:22:18.200] basic_port_allocator.cc:(line 109): Filtered out ignored networks:
+
+[2023-11-08 11:22:18.200] basic_port_allocator.cc:(line 111): Net[lo:0:0:0:x:x:x:x:x/128:Loopback:id=2]
+
+[2023-11-08 11:22:18.200] basic_port_allocator.cc:(line 111): Net[lo:127.0.0.x/8:Loopback:id=1]
+
+[2023-11-08 11:22:18.200] basic_port_allocator.cc:(line 833): Allocate ports on 5 networks
+
+[2023-11-08 11:22:18.201] physical_socket_server.cc:(line 204): Binding socket to network address 240b:c010:800:8bb6:0:8:f7e3:4801 failed; result: -1
+
+[2023-11-08 11:22:18.201] basic_packet_socket_factory.cc:(line 53): UDP bind failed with error 101
+
+[2023-11-08 11:22:18.201] physical_socket_server.cc:(line 204): Binding socket to network address 240b:c010:8d2:d075:0:3c:3864:d101 failed; result: -1
+
+[2023-11-08 11:22:18.202] basic_packet_socket_factory.cc:(line 53): UDP bind failed with error 13
+
+[2023-11-08 11:22:18.202] android_network_monitor.cc:(line 325): Network connected: NetInfo[name rmnet_data5; handle 1042787782669; type 3; address 10.76.10.244 240b:c010:4c1:9a92:8145:cdd5:d232:74cc]
+
+[2023-11-08 11:22:18.202] basic_port_allocator.cc:(line 1372): Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]: Allocation Phase=Udp
+
+[2023-11-08 11:22:18.202] port.cc:(line 185): Port[1d054390::1:0:local:Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]]: Port created with network cost 900
+
+[2023-11-08 11:22:18.203] NetworkMonitorAutoDetect:link properties changed: {InterfaceName: rmnet_data5 LinkAddresses: [ 10.76.10.244/29,240b:c010:4c1:9a92:8145:cdd5:d232:74cc/64 ] DnsAddresses: [ /172.16.206.49,/172.16.206.50,/240b:c000::cafe:1,/240b:c000::cafe:2 ] Domains: null MTU: 1420 TcpBufferSizes: 2097152,4194304,8388608,262144,524288,1048576 Routes: [ 0.0.0.0/0 -> 10.76.10.245 rmnet_data5 mtu 1420,::/0 -> fe80::7 rmnet_data5 mtu 1420,10.76.10.240/29 -> 0.0.0.0 rmnet_data5 mtu 0,240b:c010:4c1:9a92::/64 -> :: rmnet_data5 mtu 0 ]}
+[2023-11-08 11:22:18.203] physical_socket_server.cc:(line 204): Binding socket to network address 240b:c010:800:8bb6:0:8:f7e3:4801 failed; result: -1
+
+[2023-11-08 11:22:18.203] basic_packet_socket_factory.cc:(line 53): UDP bind failed with error 13
+
+[2023-11-08 11:22:18.203] stun_port.cc:(line 216): Port[1d054390::1:0:local:Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]]: UDP socket creation failed
+
+[2023-11-08 11:22:18.203] basic_port_allocator.cc:(line 1372): Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]: Allocation Phase=Udp
+
+[2023-11-08 11:22:18.204] port.cc:(line 185): Port[1d054390::1:0:local:Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]]: Port created with network cost 900
+
+[2023-11-08 11:22:18.204] basic_port_allocator.cc:(line 942): Adding allocated port for audio
+
+[2023-11-08 11:22:18.204] basic_port_allocator.cc:(line 961): Port[1d054390:audio:1:0:local:Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]]: Added port to allocator
+
+[2023-11-08 11:22:18.204] basic_port_allocator.cc:(line 979): Port[1d054390:audio:1:0:local:Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]]: Gathered candidate: Cand[:3501269011:1:udp:2122121727:[0:0:0:x:x:x:x:x]:36083:local::0:QTtS:0d9cMaCjDYs2Y5cQmcuYbNN6:7:900:0]
+
+[2023-11-08 11:22:18.204] basic_port_allocator.cc:(line 1007): Port[1d054390:audio:1:0:local:Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]]: Port ready.
+
+[2023-11-08 11:22:18.205] physical_socket_server.cc:(line 557): Socket::OPT_DSCP not supported.
+
+[2023-11-08 11:22:18.205] p2p_transport_channel.cc:(line 828): Port[1d054390:audio:1:0:local:Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]]: SetOption(5, 0) failed: 0
+
+[2023-11-08 11:22:18.205] basic_port_allocator.cc:(line 1018): Discarding candidate because it doesn't match filter.
+
+[2023-11-08 11:22:18.205] basic_port_allocator.cc:(line 1084): Port[1d054390:audio:1:0:local:Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]]: Port completed gathering candidates.
+
+[2023-11-08 11:22:18.205] android_network_monitor.cc:(line 325): Network connected: NetInfo[name rmnet_data5; handle 1042787782669; type 3; address 10.76.10.244 240b:c010:4c1:9a92:8145:cdd5:d232:74cc]
+
+[2023-11-08 11:22:18.205] basic_port_allocator.cc:(line 1372): Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]: Allocation Phase=Udp
+
+[2023-11-08 11:22:18.205] port.cc:(line 185): Port[1d017780::1:0:local:Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]]: Port created with network cost 900
+
+[2023-11-08 11:22:18.206] physical_socket_server.cc:(line 204): Binding socket to network address 240b:c010:8d2:d075:0:3c:3864:d101 failed; result: -1
+
+[2023-11-08 11:22:18.206] basic_packet_socket_factory.cc:(line 53): UDP bind failed with error 13
+
+[2023-11-08 11:22:18.206] stun_port.cc:(line 216): Port[1d017780::1:0:local:Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]]: UDP socket creation failed
+
+[2023-11-08 11:22:18.206] basic_port_allocator.cc:(line 1372): Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]: Allocation Phase=Udp
+
+[2023-11-08 11:22:18.207] port.cc:(line 185): Port[1d017780::1:0:local:Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]]: Port created with network cost 900
+
+[2023-11-08 11:22:18.207] basic_port_allocator.cc:(line 942): Adding allocated port for audio
+
+[2023-11-08 11:22:18.207] basic_port_allocator.cc:(line 961): Port[1d017780:audio:1:0:local:Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]]: Added port to allocator
+
+[2023-11-08 11:22:18.207] basic_port_allocator.cc:(line 979): Port[1d017780:audio:1:0:local:Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]]: Gathered candidate: Cand[:3950154443:1:udp:2121998079:10.51.209.x:54025:local::0:QTtS:0d9cMaCjDYs2Y5cQmcuYbNN6:6:900:0]
+
+[2023-11-08 11:22:18.207] basic_port_allocator.cc:(line 1007): Port[1d017780:audio:1:0:local:Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]]: Port ready.
+
+[2023-11-08 11:22:18.207] physical_socket_server.cc:(line 557): Socket::OPT_DSCP not supported.
+
+[2023-11-08 11:22:18.207] p2p_transport_channel.cc:(line 828): Port[1d017780:audio:1:0:local:Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]]: SetOption(5, 0) failed: 0
+
+[2023-11-08 11:22:18.208] basic_port_allocator.cc:(line 1084): Port[1d017780:audio:1:0:local:Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]]: Port completed gathering candidates.
+
+[2023-11-08 11:22:18.208] network.cc:(line 480): Network change was observed
+
+[2023-11-08 11:22:18.212] network.cc:(line 480): Network change was observed
+
+[2023-11-08 11:22:18.254] basic_port_allocator.cc:(line 1372): Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]: Allocation Phase=Relay
+
+[2023-11-08 11:22:18.255] basic_port_allocator.cc:(line 1372): Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]: Allocation Phase=Relay
+
+[2023-11-08 11:22:18.257] basic_port_allocator.cc:(line 1372): Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]: Allocation Phase=Relay
+
+[2023-11-08 11:22:18.257] basic_port_allocator.cc:(line 1372): Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]: Allocation Phase=Relay
+
+[2023-11-08 11:22:18.305] basic_port_allocator.cc:(line 1372): Net[rmnet_data2:240b:c010:800:x:x:x:x:x/64:Cellular:id=3]: Allocation Phase=Tcp
+
+[2023-11-08 11:22:18.306] basic_port_allocator.cc:(line 1372): Net[rmnet_data5:240b:c010:4c1:x:x:x:x:x/64:Cellular:id=7]: Allocation Phase=Tcp
+
+[2023-11-08 11:22:18.308] basic_port_allocator.cc:(line 1372): Net[rmnet_data7:240b:c010:8d2:x:x:x:x:x/64:Cellular:id=4]: Allocation Phase=Tcp
+
+[2023-11-08 11:22:18.308] basic_port_allocator.cc:(line 1372): Net[rmnet_data5:10.76.10.x/29:Cellular:id=6]: Allocation Phase=Tcp
+
+[2023-11-08 11:22:18.308] basic_port_allocator.cc:(line 1159): All candidates gathered for audio:1:0
+
+[2023-11-08 11:22:18.308] p2p_transport_channel.cc:(line 883): P2PTransportChannel: audio, component 1 gathering complete
+
+[2023-11-08 11:22:18.467] NetworkMonitorAutoDetect:capabilities changed: [ Transports: CELLULAR Capabilities: SUPL&IA&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED LinkUpBandwidth>=15000Kbps LinkDnBandwidth>=30000Kbps Specifier: <TelephonyNetworkSpecifier [mSubId = 3]> UnderlyingNetworks: Null]
+[2023-11-08 11:22:18.474] android_network_monitor.cc:(line 325): Network connected: NetInfo[name rmnet_data5; handle 1042787782669; type 3; address 10.76.10.244 240b:c010:4c1:9a92:8145:cdd5:d232:74cc]
+
+[2023-11-08 11:22:18.476] network.cc:(line 480): Network change was observed
+
+[2023-11-08 11:22:21.084] MavPeerConnection closing:08-11-2023-11-22-17-204
+[2023-11-08 11:22:21.088] peer_connection.cc:(line 4202): Session: 8699277310640825164 Old state: kStable New state: kClosed
+
+[2023-11-08 11:22:21.090] channel.cc:(line 559): Channel disabled
+
+[2023-11-08 11:22:21.091] channel.cc:(line 861): Changing voice state, recv=0 send=0
+
+[2023-11-08 11:22:21.091] webrtc_voice_engine.cc:(line 1842): RemoveSendStream: 3065001346
+
+[2023-11-08 11:22:21.091] call.cc:(line 1188): UpdateAggregateNetworkState: aggregate_state=down
+
+[2023-11-08 11:22:21.091] rtp_transport_controller_send.cc:(line 270): SignalNetworkState Down
+
+[2023-11-08 11:22:21.091] audio_send_stream.cc:(line 179): ~AudioSendStream: 3065001346
+
+[2023-11-08 11:22:21.092] channel.cc:(line 163): Destroyed channel: audio
+
+[2023-11-08 11:22:21.093] NetworkMonitor:Stop monitoring with native observer -5476376671264988560
+[2023-11-08 11:22:21.093] NetworkMonitorAutoDetect:Unregister network callback
+[2023-11-08 11:22:21.095] NetworkMonitorAutoDetect:Unregister network callback
+[2023-11-08 11:22:21.098] paced_sender.cc:(line 421): ProcessThreadAttached 0x0
+
+[2023-11-08 11:22:21.098] paced_sender.cc:(line 421): ProcessThreadAttached 0x0
+
+[2023-11-08 11:22:21.100] peer_connection.cc:(line 894): Session: 8699277310640825164 is destroyed.
+
+[2023-11-08 11:22:21.102] dtmf_sender.cc:(line 216): The Dtmf provider is deleted. Clear the sending queue.
+
+[2023-11-08 11:22:21.112] webrtc_video_engine.cc:(line 483): WebRtcVideoEngine::~WebRtcVideoEngine
+
+[2023-11-08 11:22:21.113] webrtc_voice_engine.cc:(line 205): WebRtcVoiceEngine::~WebRtcVoiceEngine
+
+[2023-11-08 11:22:21.113] audio_device_module.cc:(line 261): StopPlayout
+
+[2023-11-08 11:22:21.113] audio_device_module.cc:(line 276): Playing
+
+[2023-11-08 11:22:21.113] audio_device_module.cc:(line 300): StopRecording
+
+[2023-11-08 11:22:21.113] audio_device_module.cc:(line 314): Recording
+
+[2023-11-08 11:22:21.113] audio_device_module.cc:(line 85): RegisterAudioCallback
+
+[2023-11-08 11:22:21.114] audio_device_buffer.cc:(line 81): RegisterAudioCallback
+
+[2023-11-08 11:22:21.114] audio_device_module.cc:(line 119): Terminate
+
+[2023-11-08 11:22:21.114] audio_record_jni.cc:(line 95): Terminate
+
+[2023-11-08 11:22:21.114] audio_record_jni.cc:(line 156): StopRecording
+
+[2023-11-08 11:22:21.114] audio_track_jni.cc:(line 69): Terminate
+
+[2023-11-08 11:22:21.115] audio_track_jni.cc:(line 119): StopPlayout
+
+[2023-11-08 11:22:21.115] audio_device_buffer.cc:(line 75): AudioDeviceBuffer::~dtor
+
