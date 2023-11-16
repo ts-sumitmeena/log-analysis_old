@@ -4,7 +4,7 @@ Provide analysis for feedback/log data of Link app
 ## Environment Setup
 1. Install conda for package manager. You can you others like pip, apt but conda is recommended for jupyter notebook.
 
-   From website: https://www.anaconda.com/download
+   From [download page](https://www.anaconda.com/download)
    
    From commandline:
    ```
@@ -39,7 +39,7 @@ Provide analysis for feedback/log data of Link app
    install Jupyter
    ```
 
-   Active your_playground environment: https://code.visualstudio.com/docs/datascience/jupyter-notebooks
+   Active your_playground environment [Visual Code Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
    
 
 ## Sample
