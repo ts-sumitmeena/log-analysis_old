@@ -14,11 +14,11 @@ Provide analysis for feedback/log data of Link app
    ```
    conda activate base
    conda create —name your_playground
-   conda active playground
+   conda active your_playground
    ```
 4. Adding libraries. If new libraries are introduced, we need to install it.
    ```
-   conda install pandas jupyter bottleneck numexpr matplotlib
+   conda install pandas jupyter bottleneck numexpr matplotlib pandas-reader
    conda update —all
    ```
 5. If you do not have python, install it.
@@ -29,7 +29,7 @@ Provide analysis for feedback/log data of Link app
 ## IDE
 1. Open jupyter notebook in browser:
    ```
-   jupyternote book file_name
+   jupyter notebook file_name
    ```
 2. Visual Studio Code
    
