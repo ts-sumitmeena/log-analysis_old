@@ -10,20 +10,26 @@ Provide analysis for feedback/log data of Link app
    ```
    brew install anaconda export PATH="/usr/local/anaconda3/bin:$PATH"
    ```
+2. If you do not have python, install it.
+   ```
+   brew install python
+   ```
 3. Create `your_playground` environment with conda
    ```
    conda activate base
-   conda create —name your_playground
-   conda active your_playground
+   
+   conda create --name your_playground
+   conda create --name your_playground python=3.9 // if you already have python intalled
+  
+   conda activate your_playground
+
+   // to deactivate
+   conda deactivate your_playground
    ```
-4. Adding libraries. If new libraries are introduced, we need to install it.
+4. Adding libraries: basically we setup new library for your_playground. If new libraries are introduced, we need to install it.
    ```
    conda install pandas jupyter bottleneck numexpr matplotlib pandas-reader
-   conda update —all
-   ```
-5. If you do not have python, install it.
-   ```
-   brew install python
+   conda update -all
    ```
 
 ## IDE
@@ -40,6 +46,7 @@ Provide analysis for feedback/log data of Link app
    ```
 
    Active your_playground environment [Visual Code Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+   Choose `your_playground` activated before, it should have all the required dependencies.
    
 
 ## Sample
