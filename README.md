@@ -1,4 +1,4 @@
-# Feedback / Log Analysis
+# Log Analysis
 Provide analysis for feedback/log data of Link app
 
 ## Environment Setup
