@@ -29,7 +29,7 @@ Provide analysis for feedback/log data of Link app
 4. Adding libraries: basically we setup new library for your_playground. If new libraries are introduced, we need to install it.
    ```
    conda install pandas jupyter bottleneck numexpr matplotlib pandas-datareader
-   conda update -all
+   conda update --all
    ```
 
 ## IDE
