@@ -14,19 +14,22 @@ Provide analysis for feedback/log data of Link app
    ```
    brew install python
    ```
-3. Create `your_playground` environment with conda
+3. You can create `your_playground` environment with conda or use the default `base` one"
    ```
-   conda activate base
-   
+   // to active default base
+   conda activate base 
+
+   // to create your environment
    conda create --name your_playground
    conda create --name your_playground python=3.9 // if you already have python intalled
-  
+
+   // to active your environment 
    conda activate your_playground
 
    // to deactivate
    conda deactivate your_playground
    ```
-4. Adding libraries: basically we setup new library for your_playground. If new libraries are introduced, we need to install it.
+4. Adding libraries: after activated the environment, we need to install required libraries for it. These libraries are for running `log_extraction_sms_flow_dc_ott.ipynb` script.
    ```
    conda install pandas jupyter bottleneck numexpr matplotlib pandas-datareader
    conda update --all
